@@ -126,30 +126,35 @@ Anna Komnene, Hildegard von Bingen, and Marie de France were three remarkable me
   <p style="margin: auto; max-width: 800px; text-align: center; font-size: 20px">
     <a href="#step2">Step 2</a><br><br>
     Natural Language Processing (NLP)<br><br>
-<b>Translation</b>The translation pipeline is used to translate French text into English, making it easier to apply emotion analysis models that work with English text. The translation model used here is `Helsinki-NLP/opus-mt-fr-en`, which is specifically trained for machine translation between French and English.  
+<b>Translation</b><br>The translation pipeline is used to translate French text into English, making it easier to apply emotion analysis models that work with English text. The translation model used here is `Helsinki-NLP/opus-mt-fr-en`, which is specifically trained for machine translation between French and English.  
   <br>
-<b>Emotion Classification</b>The emotion classification model detects the emotion conveyed in each translated line of text. It assigns each line an emotion label and a confidence score. This is a supervised machine learning model applied to textual data, trained to classify emotions like joy, sadness, anger, etc.  
+<b>Emotion Classification</b><br>The emotion classification model detects the emotion conveyed in each translated line of text. It assigns each line an emotion label and a confidence score. This is a supervised machine learning model applied to textual data, trained to classify emotions like joy, sadness, anger, etc.  
   </p>
     <br>
-<center><h3>Frequencies of Emotions in the Poetic Texts</h3></center>
+  <center><h3>Frequencies of Emotions in the Poetic Texts</h3></center>
 
-<div style="display: flex; justify-content: center;">
-  <iframe src="emotion_frequencies3.html" width="90%" height="600px" style="border: none; background: oldlace;"></iframe>
-</div>
+  <center>
+    <iframe 
+      src="emotion_frequencies3.html" 
+      width="100%" 
+      height="600px" 
+      style="border:none; max-width: 900px;">
+    </iframe>
+  </center>
 
   <!-- Container for Parts-->
 <div>
   <p style="margin: auto; max-width: 800px; text-align: center; font-size: 20px">
     <a href="#step3">Step 3</a><br><br>
     <b>Data Wrangling</b><br><br>
-<b>Pandas DataFrame (sample)</b>This is a crucial data wrangling step to structure and organize the data for analysis and visualization.  
+<b>Pandas DataFrame (sample)</b><br>This is a crucial data wrangling step to structure and organize the data for analysis and visualization.  
   <br> </p>  <br>
       <div style="display: flex; justify-content: center; gap: 10px; max-width: 800px; margin: auto;">
     <img style="width: 100%; margin-top: 20px;" 
          src="https://github.com/adeline-hub/medieval_poetess/blob/main/.github/workflows/print_df.png?raw=true" 
          alt="Pandas DataFrame" />  <br></div><br> <br>
           <p style="margin: auto; max-width: 800px; text-align: center; font-size: 20px">
-        <b>Categorical Encoding</b>Categorical encoding is applied to convert the emotional labels into numerical codes. This transformation allows the emotional labels to be used effectively in visualizations, where color and size can represent these numerical values.  
+        <b>Categorical Encoding</b><br>Categorical encoding is applied to convert the emotional labels into numerical codes. This transformation allows the emotional labels to be used effectively in visualizations, where color and size can represent these numerical values.  
   </p>
  <br>
     <br> <br> <br> <br>
