@@ -14,7 +14,7 @@ Witness the EXTRAORDINARY SPECTACLE of TWO MAGNIFICENT MEDIEVAL PROJECTS!
 - 🏰 COMING SOON! The MOST PERPLEXING examination of women's roles in monastery life!
 - WITNESS the INCREDIBLE COMPLEXITY of medieval social structures!
 - PREPARE to be AMAZED as ancient texts reveal their secrets!
-- Enter via: https://arts.st-andrews.ac.uk/monasticmatrix/search
+- Enter via: https://arts.st-andrews.ac.uk/monasticmatrix/search / https://mdr-maa.org/resource_type/downloadable-data/
 
 ## Using the MIRACULOUS POWERS of Python, watch as:
 - TEXT transforms into DATA!
