@@ -286,10 +286,11 @@ if not df.empty:
         with cols[i]:
 ...</code></pre>
 
-        <div class="img-placeholder">
-            <img src="assets/images/random_quote.png" alt="random_quote" style="width: 100%; height: 200px; object-fit: cover;">
+        <div class="img-placeholder" style="height: auto; padding: 20px; background: #1A1A1A;">
+            <img src="assets/images/random_quote.png" 
+                alt="random_quote" 
+                style="width: 100%; max-width: 800px; height: auto; object-fit: contain; border-radius: 4px;">
         </div>
-
         <p>Now, relax!</p>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/xDFBJFC7oy0?si=Z35sRLnelb2ss4cZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -407,21 +408,24 @@ if not df.empty:
             <center>
             <iframe 
             src="assets/images/emotion_sample.html" 
-            width="100%" 
+            width="80%" 
             height="400px" 
-            style="border:none; max-width: 900px;">
+            style="border:none; max-width: 700px;">
             </iframe>
             </center>   
-            
-            <center>
-            <iframe 
-            src="assets/images/emotion_chart.html" 
-            width="100%" 
-            height="400px" 
-            style="border:none; max-width: 900px;">
-            </iframe>
-            </center>               
+             
 
+            <center>
+                <div style="width: 100%; max-width: 900px; margin: 2rem 0;">
+                    <iframe 
+                        src="assets/images/emotion_chart.html" 
+                        width="100%" 
+                        height="550px" 
+                        style="border: 1px solid #2A2A2A; border-radius: 4px; background: #121212; overflow: hidden;"
+                        scrolling="no">
+                    </iframe>
+                </div>
+            </center>
 
         <p>This project uses <strong>Natural Language Processing (NLP)</strong to perform a cross-linguistic sentiment analysis of medieval texts by four poetesses. The goal is to translate archaic French or localized dialects into modern English to map and compare dominant emotional intensities across different centuries and cultures.</p>
         
@@ -442,14 +446,17 @@ if not df.empty:
             <span class="tool-badge" style="border-color: var(--text-main); color: var(--text-main);">KMeans</span>
         </div>
 
-        <center>
-            <iframe 
-            src="assets/images/medieval_stylometry.html" 
-            width="100%" 
-            height="600px" 
-            style="border:none; max-width: 900px;">
-            </iframe>
-        </center>
+            <center>
+                <div style="width: 150%; max-width: 900px; margin: 2rem 0;">
+                    <iframe 
+                        src="assets/images/medieval_stylometry.html" 
+                        width="100%" 
+                        height="750px" 
+                        style="border: 1px solid #2A2A2A; border-radius: 4px; background: #121212; overflow: hidden;"
+                        scrolling="no">
+                    </iframe>
+                </div>
+            </center>
 
         <p>Here, with <strong>TF-IDF (Term Frequency-Inverse Document Frequency)</strong>, I prioritize words that are uniquely characteristic of a poetess.
         <strong>PCA (Principal Component Analysis)</strong> then compresses hundreds of linguistic features into two axes, allowing us to see the "gravitational pull" of different styles.</p>
@@ -474,9 +481,9 @@ if not df.empty:
         <center>
             <iframe 
             src="assets/images/cluster_map.html" 
-            width="100%" 
-            height="600px" 
-            style="border:none; max-width: 900px;">
+            width="80%" 
+            height="400px" 
+            style="border:none; max-width: 700px;">
             </iframe>
         </center>
 
@@ -556,67 +563,86 @@ if not df.empty:
 
         <p>For each poet, a line is added to represent the emotional trajectory of each poem, based on the scores for each line.</p>    
 
-        <center>
-            <iframe 
-            src="assets/images/trajectory_wallada.html" 
-            width="100%" 
-            height="400px" 
-            style="border:none; max-width: 900px;">
-            </iframe>
-        </center>
-        
-        <center>
-            <iframe 
-            src="assets/images/trajectory_marie_de_france.html" 
-            width="100%" 
-            height="400px" 
-            style="border:none; max-width: 900px;">
-            </iframe>
-        </center>
-        
-        <center>
-            <iframe 
-            src="assets/images/trajectory_hildegard_von_bingen.html" 
-            width="100%" 
-            height="400px" 
-            style="border:none; max-width: 900px;">
-            </iframe>
-        </center>
-        
-        <center>
-            <iframe 
-            src="assets/images/trajectory_anna_komnene.html" 
-            width="100%" 
-            height="400px" 
-            style="border:none; max-width: 900px;">
-            </iframe>
-        </center>
+            <center>
+                <div style="width: 100%; max-width: 900px; margin: 2rem 0;">
+                    <iframe 
+                        src="assets/images/trajectory_wallada.html" 
+                        width="120%" 
+                        height="500px" 
+                        style="border: 1px solid #2A2A2A; border-radius: 4px; background: #121212; overflow: hidden;"
+                        scrolling="no">
+                    </iframe>
+                </div>
+            </center>
+
+            <center>
+                <div style="width: 100%; max-width: 900px; margin: 2rem 0;">
+                    <iframe 
+                        src="assets/images/trajectory_marie_de_france.html" 
+                        width="120%" 
+                        height="500px" 
+                        style="border: 1px solid #2A2A2A; border-radius: 4px; background: #121212; overflow: hidden;"
+                        scrolling="no">
+                    </iframe>
+                </div>
+            </center>
+
+            <center>
+                <div style="width: 100%; max-width: 900px; margin: 2rem 0;">
+                    <iframe 
+                        src="assets/images/trajectory_hildegard_von_bingen.html" 
+                        width="120%" 
+                        height="500px" 
+                        style="border: 1px solid #2A2A2A; border-radius: 4px; background: #121212; overflow: hidden;"
+                        scrolling="no">
+                    </iframe>
+                </div>
+            </center>
+
+            <center>
+                <div style="width: 100%; max-width: 900px; margin: 2rem 0;">
+                    <iframe 
+                        src="assets/images/trajectory_anna_komnene.html" 
+                        width="120%" 
+                        height="500px" 
+                        style="border: 1px solid #2A2A2A; border-radius: 4px; background: #121212; overflow: hidden;"
+                        scrolling="no">
+                    </iframe>
+                </div>
+            </center>
+
 
         <h4>Distribution of emotional intensities by poetess</h4>
 
         <p>Violin plots to display distribution of emotion's density by poetess or by emotion.</p>
         <p>While the previous trajectory chart showed the order of emotions, this chart shows the statistical distribution—revealing who is consistently intense and who is more balanced.</p>
 
-        <center>
-            <iframe 
-            src="assets/images/emotional_distribution.html" 
-            width="100%" 
-            height="600px" 
-            style="border:none; max-width: 900px;">
-            </iframe>
-        </center>
+            <center>
+                <div style="width: 100%; max-width: 900px; margin: 2rem 0;">
+                    <iframe 
+                        src="assets/images/emotional_distribution.html" 
+                        width="120%" 
+                        height="500px" 
+                        style="border: 1px solid #2A2A2A; border-radius: 4px; background: #121212; overflow: hidden;"
+                        scrolling="no">
+                    </iframe>
+                </div>
+            </center>
 
         <p>Here, distribution of emotional intensity by emotion</p>
         <p>Instead of looking at who wrote what, you are looking at the nature of the emotions. For example, you might see that "JOY" always has a very high confidence score, while "SADNESS" is more widely distributed.</p>
 
-        <center>
-            <iframe 
-            src="assets/images/emotion_intensity_distribution.html" 
-            width="100%" 
-            height="600px" 
-            style="border:none; max-width: 900px;">
-            </iframe>
-        </center>
+            <center>
+                <div style="width: 100%; max-width: 900px; margin: 2rem 0;">
+                    <iframe 
+                        src="assets/images/emotion_intensity_distribution.html" 
+                        width="120%" 
+                        height="500px" 
+                        style="border: 1px solid #2A2A2A; border-radius: 4px; background: #121212; overflow: hidden;"
+                        scrolling="no">
+                    </iframe>
+                </div>
+            </center>
 
         <h4>Playing with clusters</h4>
 
@@ -626,12 +652,13 @@ if not df.empty:
         <p>By plotting all four poetesses on the same graph, we can see where their "clusters" intersect. Each author has a distinct shape (Circle, Diamond, Star, Square). Even when the lines cross, the geometry remains clear—very much in the spirit of a technical studio blueprint.</p>
 
         <center>
-            <iframe 
-            src="assets/images/comparative_trajectory.html" 
-            width="100%" 
-            height="600px" 
-            style="border:none; max-width: 900px;">
-            </iframe>
+            <div style="width: 120%; max-width: 900px; height: 400px; margin: 2rem 0; overflow: hidden; border: 1px solid #2A2A2A; border-radius: 4px; position: relative; background: #121212;">
+                <iframe 
+                    src="assets/images/comparative_trajectory.html" 
+                    style="width: 160%; height: 160%; border: none; position: absolute; top: 0; left: 0; transform: scale(0.62); transform-origin: 0 0;"
+                    scrolling="no">
+                </iframe>
+            </div>
         </center>
 
         <p><strong>Clustering Based on Emotional Intensity</strong></p>
@@ -640,13 +667,15 @@ if not df.empty:
         <p>Using K-Means clustering to create three tiers: Low, Medium, and High Intensity, then draw the hulls around them.</p>
 
         <center>
-            <iframe 
-            src="assets/images/intensity_hulls.html" 
-            width="100%" 
-            height="600px" 
-            style="border:none; max-width: 900px;">
-            </iframe>
+            <div style="width: 120%; max-width: 900px; height: 400px; margin: 2rem 0; overflow: hidden; border: 1px solid #2A2A2A; border-radius: 4px; position: relative; background: #121212;">
+                <iframe 
+                    src="assets/images/intensity_hulls.html" 
+                    style="width: 160%; height: 160%; border: none; position: absolute; top: 0; left: 0; transform: scale(0.62); transform-origin: 0 0;"
+                    scrolling="no">
+                </iframe>
+            </div>
         </center>
+
 
         <p><strong>Cluster Poem Generator</strong></p>
 
@@ -657,12 +686,13 @@ if not df.empty:
 
         <center>
             <iframe 
-            src="assets/images/poetic_remixes.html" 
-            width="100%" 
-            height="1200px" 
-            style="border:none; max-width: 900px;">
+                src="assets/images/poetic_remixes.html" 
+                width="100%" 
+                height="1200px" 
+                style="border: 2px solid #2A2A2A; max-width: 800px; display: block; background-color: #1A1A1A;">
             </iframe>
-        </center>        
+        </center>
+
 
     </main>
 </body>
