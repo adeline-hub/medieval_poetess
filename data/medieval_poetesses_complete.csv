@@ -1,0 +1,84 @@
+﻿Author,Original_Text,Translated_Text,Emotion,Confidence_Score
+Marie de France,qui s'enroule autour du noisetier:,which wraps around the hazelnut tree:,NEUTRAL,0.7226
+Marie de France,ils peuvent ainsi continuer à vivre longtemps.,They can continue to live for a long time.,NEUTRAL,0.9667
+Marie de France,"Mais si l'on veut ensuite les séparer,","But if we want to separate them then,",NEUTRAL,0.8973
+Marie de France,"le noisetier a tôt fait de mourir,","the hazelnut soon died,",SADNESS,0.9279
+Marie de France,tout comme le chèvrefeuille.,Just like the honeysuckle.,NEUTRAL,0.736
+Marie de France,"« Belle amie, ainsi en va-t-il de nous:","""Beautiful friend, so it is with us:",JOY,0.947
+Marie de France,"ni vous sans moi, ni moi sans vous! »","neither you without me, nor me without you!""",ANGER,0.9186
+Marie de France,"La reine s'avance à cheval,","The queen rides on horseback,",NEUTRAL,0.8406
+Marie de France,et en reconnaît toutes les lettres.,and recognizes all the letters.,NEUTRAL,0.9064
+Marie de France,Elle donne l'ordre de s'arrêter,She's giving the order to stop.,ANGER,0.5462
+Marie de France,"aux chevaliers de son escorte,","to the knights of his escort,",NEUTRAL,0.6437
+Marie de France,elle veut descendre de cheval et se reposer.,She wants to get off the horse and rest.,NEUTRAL,0.607
+Marie de France,"et elle s'éloigne de sa suite,","and she goes away from her suite,",NEUTRAL,0.8117
+Marie de France,"Brangien, sa loyale suivante.","Brangien, his next loyal man.",NEUTRAL,0.8219
+Marie de France,"S'écartant un peu du chemin,","Moving a little away from the road,",FEAR,0.4546
+Marie de France,elle découvre dans la forêt,She discovers in the forest,FEAR,0.4705
+Marie de France,l'être qu'elle aime le plus au monde.,the being she loves most in the world.,JOY,0.739
+Anna Komnene,"Or si j’en suis venue à écrire l’histoire des actions de mon père,","Now if I have come to write the story of my father's actions,",ANGER,0.5896
+Anna Komnene,"J’ai été unie par un mariage légitime au césar Nicéphore,","I was united by a legitimate marriage to the caesar Nicéphore,",JOY,0.9204
+Anna Komnene,"un rejeton de la lignée des Bryennes,","a offspring of the lineage of the Bryennes,",NEUTRAL,0.6411
+Anna Komnene,"la supériorité de son esprit,","the superiority of his mind,",NEUTRAL,0.2863
+Anna Komnene,"la perfection de son éloquence,","the perfection of his eloquence,",NEUTRAL,0.6162
+Anna Komnene,laissait loin derrière lui ses contemporains.,left his contemporaries far behind.,NEUTRAL,0.6795
+Anna Komnene,Il était en effet vraiment merveilleux et à voir et à entendre.,It was indeed truly wonderful and to see and hear.,JOY,0.9776
+Anna Komnene,"Et pour que notre récit ne s’écarte pas de la grande route,","And so that our account may not depart from the highway,",NEUTRAL,0.9307
+Anna Komnene,reprenons-en maintenant la suite.,Let's go over it now.,NEUTRAL,0.7695
+Anna Komnene,Mon mari était donc remarquablement supérieur en tout ;,So my husband was remarkably superior in all;,NEUTRAL,0.5206
+Anna Komnene,"il suivit dans ses expéditions l’autocrate Jean,","He followed in his autocrate expeditions John,",NEUTRAL,0.9199
+Anna Komnene,"quand celui-ci fit campagne contre différents Barbares,","when he campaigned against different Barbarians,",DISGUST,0.5733
+Anna Komnene,puis quand il s’élança aussi sur les Syriens,then when he also set out on the Syrians,ANGER,0.4105
+Anna Komnene,et replaça sous son autorité la ville d’Antioche.,and placed under his authority the city of Antioch.,NEUTRAL,0.3177
+Anna Komnene,"Mais le césar ne pouvait oublier les lettres,","But the Caesar could not forget the letters,",NEUTRAL,0.8992
+Anna Komnene,"même au milieu des fatigues et des labeurs,","even in the midst of fatigue and labor,",NEUTRAL,0.4759
+Anna Komnene,et il composa différents écrits que leur valeur a rendus célèbres ;,and he composed various writings which their value made famous;,JOY,0.4401
+Anna Komnene,"en particulier sur l’ordre de la basilissa,","in particular on the order of the basilissa,",NEUTRAL,0.7841
+Anna Komnene,"il entreprit d’écrire l’histoire d’Alexis,","he undertook to write the story of Alexis,",NEUTRAL,0.5141
+Anna Komnene,et d’exposer dans un ouvrage en plusieurs livres les actes de son règne,and to expose in a book in several books the acts of his reign,DISGUST,0.548
+Wallada,"Grâce à Dieu, je suis pourvue d'une haute condition,","Thanks to God, I am provided with a high condition,",JOY,0.8152
+Wallada,Je suis ma voie avec fierté.,I am my way with pride.,NEUTRAL,0.5044
+Wallada,"Si j'accorde à mon aimé de me baiser la joue,","If I give my love to fuck my cheek,",ANGER,0.7652
+Wallada,"Pour autant, je donne mon baiser à qui le désire.",But I give my kiss to whoever wants it.,NEUTRAL,0.3638
+Wallada,"J'ai tellement peur pour toi, mon bien-aimé,","I'm so scared for you, my beloved,",FEAR,0.9904
+Wallada,"même le sol que tu marches,","Even the ground that you walk,",NEUTRAL,0.82
+Wallada,"même les heures qui passent,","Even the hours that pass,",NEUTRAL,0.8948
+Wallada,menacent de t'arracher à moi.,threaten to rip you out of me.,FEAR,0.9722
+Wallada,Même si je pouvais te cacher dans les pupilles de mes yeux,Even if I could hide you in the pupils of my eyes,DISGUST,0.3081
+Wallada,"et t'y cacher jusqu'au Jour du Jugement,","and hide in it until the Day of Judgment,",NEUTRAL,0.8697
+Wallada,ma peur ne serait toujours pas apaisée.,My fear would still not be soothed.,FEAR,0.9845
+Wallada,"Ta passion m'a rendu célèbre parmi les hauts et les bas,","Your passion made me famous among the ups and downs,",JOY,0.7133
+Wallada,ton visage dévore mes sentiments et mes pensées.,Your face devours my feelings and thoughts.,DISGUST,0.7873
+Wallada,"je ne peux pas être consolé,","I can't be comforted,",SADNESS,0.9467
+Wallada,tous mes soucis et mes ennuis s'envolent.,All my worries and my troubles are flying away.,FEAR,0.6079
+Wallada,"Si tu avais été vraiment sincère dans l’amour qui nous unissait,","If you had been truly sincere in the love that unites us,",NEUTRAL,0.7593
+Wallada,"à moi, un de mes propres esclaves.",One of my own slaves.,DISGUST,0.8783
+Wallada,"Ce faisant, vous avez méprisé la branche qui fleurit de beauté et choisi une branche qui ne porte que des fruits durs et amers.","In doing so, you despised the branch that blooms with beauty and chooses a branch that bears only hard and bitter fruit.",ANGER,0.5108
+Wallada,"Tu sais que je suis la lune claire et brillante des cieux mais,","You know I'm the bright and clear moon of heaven, but,",NEUTRAL,0.4887
+Wallada,"tu as choisi, à la place, une planète sombre et ombragée.","Instead, you chose a dark, shaded planet.",NEUTRAL,0.5062
+Wallada,"Le surnom qu'ils vous donnent est Numéro Six et il vous restera jusqu'à votre mort parce que vous êtes une tapette,","The nickname they give you is Number Six and you will remain until your death because you are a faggot,",ANGER,0.5922
+Wallada,"un salaud, un fornicateur, un cocu, un porc et un voleur.","A bastard, a fornicator, a cuckold, a pig and a thief.",DISGUST,0.8964
+Wallada,"Si un phallus pouvait devenir un palmier,","If a phallus could become a palm tree,",NEUTRAL,0.7742
+Wallada,vous vous transformeriez en Picidae.,You'd turn into Picidae.,NEUTRAL,0.9001
+Wallada,"Je suis jaloux de mes yeux, de moi partout, de toi-même, de ton temps et de ton lieu.","I'm jealous of my eyes, of me everywhere, of yourself, of your time, and of your place.",ANGER,0.9365
+Wallada,"Même si tu es gravé dans mes pupilles,","Even if you're engraved in my pupils,",NEUTRAL,0.5721
+Wallada,ma jalousie ne cessera jamais.,My jealousy will never stop.,ANGER,0.9804
+Hildegard von Bingen,Comme est grand en sa force le côté de l’homme,How great in his strength is man's side,SURPRISE,0.6154
+Hildegard von Bingen,"d’où Dieu a fait sortir la forme de la femme,","where God brought out the shape of the woman,",DISGUST,0.4306
+Hildegard von Bingen,dont il a fait le miroir de toute sa beauté,of which he has made the mirror of all his beauty,NEUTRAL,0.8463
+Hildegard von Bingen,et l’entrelacement de toute sa création.,and the interlacing of all its creation.,NEUTRAL,0.9064
+Hildegard von Bingen,Dès lors les instruments célestes résonnent,From then on the celestial instruments resonate,NEUTRAL,0.6389
+Hildegard von Bingen,"et toute la terre s’émerveille,","and all the earth marvels,",JOY,0.4772
+Hildegard von Bingen,Combien faut-il déplorer et regretter,How much to regret and regret,SADNESS,0.9343
+Hildegard von Bingen,"que, pour une faute commise","that, for a fault committed",SADNESS,0.4412
+Hildegard von Bingen,"sur les conseils du serpent,","on the advice of the serpent,",NEUTRAL,0.3449
+Hildegard von Bingen,la tristesse se soit infiltrée dans la femme !,The sadness has infiltrated the woman!,SADNESS,0.9812
+Hildegard von Bingen,dont Dieu a fait la mère de tous,of which God has made the mother of all,NEUTRAL,0.6851
+Hildegard von Bingen,s’est lacéré les entrailles,lacerated the bowels,ANGER,0.3733
+Hildegard von Bingen,avec les blessures de l’ignorance,with the wounds of ignorance,SADNESS,0.7354
+Hildegard von Bingen,et a porté sa pleine douleur pour sa descendance.,and bore his full pain for his offspring.,SADNESS,0.415
+Hildegard von Bingen,"Mais, ô aurore, de tes entrailles","But, O aurora, of your bowels",NEUTRAL,0.8531
+Hildegard von Bingen,qui effaça tous les méfaits d’Ève,who erased all the evils of Eve,NEUTRAL,0.6045
+Hildegard von Bingen,et donna par toi une bénédiction plus grande,and gave by thee a greater blessing,JOY,0.9113
+Hildegard von Bingen,"Ô Salvatrice, qui as porté la lumière nouvelle","O Salvator, who brought new light",JOY,0.3717
+Hildegard von Bingen,rassemble les membres de ton fils,bring together your son's members,NEUTRAL,0.8869
