@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medieval Poetesses: Emotional Intensity in Historical Verse | .danki studio</title>
-    <link rel="icon" type="image/png" href="assets/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <style>
+!DOCTYPE html
+html lang"en"
+head
+    meta charset"UTF-8"
+    meta name"viewport" content"widthdevice-width, initial-scale1.0"
+    titleMedieval Poetesses: Emotional Intensity in Historical Verse  .danki studio/title
+    link rel"icon" type"image/png" href"assets/favicon.ico"
+    link rel"preconnect" href"https://fonts.googleapis.com"
+    link href"https://fonts.googleapis.com/css2?familyRoboto:wght@300;400;500;700&familyRobotoMono:wght@400;500&displayswap" rel"stylesheet"
+    style
         :root {
             --bg: #121212;
             --text: #FFFFFF;
@@ -25,7 +25,7 @@
         a:hover { color: var(--green); }
         img { display: block; }
 
-        /* ── HEADER ── */
+        /*  HEADER  */
         header {
             padding: 1.2rem 5%;
             border-bottom: 1px solid var(--border);
@@ -41,7 +41,7 @@
         .global-nav a { color: var(--muted); padding-bottom: 3px; }
         .global-nav a.current-page { color: var(--text); border-bottom: 2px solid var(--green); }
 
-        /* ── TOC NAV ── */
+        /*  TOC NAV  */
         .toc-bar {
             position: sticky; top: 57px; z-index: 100;
             background: rgba(18,18,18,.92); backdrop-filter: blur(8px);
@@ -61,12 +61,12 @@
         .toc-bar a:hover { color: var(--green); }
         .toc-bar a.active { color: var(--green); border-bottom: 1px solid var(--green); }
 
-        /* ── LAYOUT ── */
+        /*  LAYOUT  */
         .wrap { max-width: 900px; margin: 0 auto; padding: 0 5%; }
         section { padding: 5rem 0; border-bottom: 1px solid var(--border); }
         section:last-child { border-bottom: none; }
 
-        /* ── HERO ── */
+        /*  HERO  */
         .hero { padding: 6rem 0 4rem; border-bottom: 1px solid var(--border); }
         .hero-eyebrow { font-size: .72rem; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: var(--green); margin-bottom: 1.5rem; }
         .hero-title { font-size: clamp(2rem, 5vw, 3.4rem); font-weight: 300; line-height: 1.15; margin-bottom: 2rem; }
@@ -85,7 +85,7 @@
         blockquote p { font-style: italic; color: var(--dim); font-size: .95rem; font-weight: 300; margin: 0 0 .8rem; }
         blockquote cite { font-size: .75rem; color: var(--violet); text-transform: uppercase; letter-spacing: 1.5px; }
 
-        /* ── SECTION HEADERS ── */
+        /*  SECTION HEADERS  */
         .section-label { font-size: .7rem; font-weight: 500; text-transform: uppercase; letter-spacing: 2px; color: var(--green); margin-bottom: .8rem; }
         h2 { font-size: 1.8rem; font-weight: 300; margin-bottom: 1rem; }
         h3 { font-size: 1rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--green); margin: 2.5rem 0 .8rem; padding-bottom: .5rem; border-bottom: 1px solid var(--border); }
@@ -95,7 +95,7 @@
         li { margin-bottom: .4rem; }
         strong { color: var(--text); font-weight: 500; }
 
-        /* ── GRID CARDS ── */
+        /*  GRID CARDS  */
         .grid4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1.2rem; margin: 2rem 0; }
         .card {
             background: var(--card); border: 1px solid var(--border); border-radius: 4px;
@@ -109,20 +109,20 @@
         .card-focus { font-size: .78rem; color: var(--green); text-transform: uppercase; letter-spacing: .5px; margin-bottom: .6rem; }
         .card-desc { font-size: .82rem; color: var(--muted); font-style: italic; font-weight: 300; }
 
-        /* ── PIPELINE ── */
+        /*  PIPELINE  */
         .pipeline { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 2rem 0; }
         .pipe-step { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1.2rem; position: relative; }
         .pipe-num { font-family: 'Roboto Mono', monospace; font-size: .7rem; color: var(--muted); margin-bottom: .5rem; }
         .pipe-title { font-size: .9rem; font-weight: 500; margin-bottom: .4rem; }
         .pipe-tools { font-size: .72rem; color: var(--green); text-transform: uppercase; letter-spacing: .5px; }
 
-        /* ── TOOL BADGES ── */
+        /*  TOOL BADGES  */
         .tools { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1.2rem 0; }
         .badge { background: var(--card); border: 1px solid var(--border); border-radius: 3px; padding: 5px 12px; font-size: .78rem; font-family: 'Roboto Mono', monospace; }
         .badge-green { border-color: var(--green); color: var(--green); }
         .badge-violet { border-color: var(--violet); color: var(--violet); }
 
-        /* ── VIZ FRAMES ── */
+        /*  VIZ FRAMES  */
         .viz-frame {
             width: 100%; margin: 1.5rem 0;
             border: 1px solid var(--border); border-radius: 4px;
@@ -136,28 +136,28 @@
         }
         .viz-frame iframe { display: block; width: 100%; border: none; background: #121212; }
 
-        /* ── TABLE ── */
+        /*  TABLE  */
         table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--border); margin: 1.5rem 0; }
         th { padding: .9rem 1rem; text-align: left; color: var(--green); text-transform: uppercase; font-size: .75rem; letter-spacing: 1px; border-bottom: 2px solid var(--green); }
         td { padding: .9rem 1rem; border-bottom: 1px solid var(--border); color: var(--dim); font-size: .88rem; }
         td:first-child { color: var(--violet); font-weight: 500; font-size: .78rem; font-family: 'Roboto Mono', monospace; }
         tr:last-child td { border-bottom: none; }
 
-        /* ── FINDINGS ── */
+        /*  FINDINGS  */
         .findings-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.2rem; margin: 2rem 0; }
         .finding { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1.4rem; }
         .finding-icon { font-size: 1.4rem; margin-bottom: .8rem; }
         .finding-title { font-size: .85rem; font-weight: 700; text-transform: uppercase; letter-spacing: .5px; color: var(--green); margin-bottom: .5rem; }
         .finding-text { font-size: .82rem; color: var(--muted); font-weight: 300; }
 
-        /* ── CLUSTERS ── */
+        /*  CLUSTERS  */
         .cluster-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
         .cluster { background: #0e0e0e; border: 1px solid var(--border); border-radius: 4px; padding: 1.2rem; }
         .cluster-id { font-family: 'Roboto Mono', monospace; font-size: .68rem; color: var(--muted); margin-bottom: .4rem; }
         .cluster-title { font-size: .88rem; font-weight: 700; color: var(--text); margin-bottom: .4rem; }
         .cluster-desc { font-size: .8rem; color: var(--muted); font-weight: 300; }
 
-        /* ── GLOBAL CORPUS ── */
+        /*  GLOBAL CORPUS  */
         .corpus-card { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 2rem; margin: 2rem 0; }
         .corpus-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 1.2rem; }
         .corpus-region { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: .6rem; }
@@ -174,7 +174,7 @@
         }
         .cta-link:hover { background: var(--green); color: var(--bg); }
 
-        /* ── CITE ── */
+        /*  CITE  */
         .cite-block {
             background: #0a0a0a; border: 1px solid var(--border);
             border-left: 4px solid var(--violet);
@@ -186,462 +186,462 @@
         pre { background: #0a0a0a; border: 1px solid var(--border); border-left: 4px solid var(--violet); padding: 1.4rem; border-radius: 0 4px 4px 0; overflow-x: auto; margin: 1.5rem 0; }
         pre code { background: none; padding: 0; }
 
-        /* ── RESPONSIVE ── */
+        /*  RESPONSIVE  */
         @media (max-width: 640px) {
             .global-nav { gap: 1.2rem; font-size: .72rem; }
             .corpus-grid { grid-template-columns: 1fr; }
             .hero-title { font-size: 1.8rem; }
         }
-    </style>
-</head>
-<body>
+    /style
+/head
+body
 
-<!-- HEADER -->
-<header>
-    <a href="index.html" class="logo"><span>.</span>danki studio</a>
-    <nav class="global-nav">
-        <a href="index.html" class="current-page">About</a>
-        <a href="data.html">Data Management</a>
-        <a href="projects.html">Project Management</a>
-        <a href="insights.html">Insights</a>
-    </nav>
-</header>
+!-- HEADER --
+header
+    a href"index.html" class"logo"span./spandanki studio/a
+    nav class"global-nav"
+        a href"index.html" class"current-page"About/a
+        a href"data.html"Data Management/a
+        a href"projects.html"Project Management/a
+        a href"insights.html"Insights/a
+    /nav
+/header
 
-<!-- TABLE OF CONTENTS NAV -->
-<nav class="toc-bar">
-    <a href="#corpus">01 · Corpus</a>
-    <a href="#collection">02 · Collection</a>
-    <a href="#pipeline">03 · Pipeline</a>
-    <a href="#nlp">04 · NLP</a>
-    <a href="#stylometry">05 · Stylometry</a>
-    <a href="#clustering">06 · Clustering</a>
-    <a href="#timeline">07 · Timeline</a>
-    <a href="#gis">08 · GIS</a>
-    <a href="#findings">09 · Findings</a>
-    <a href="#contribute">10 · Contribute</a>
-    <a href="#cite">11 · Cite</a>
-</nav>
+!-- TABLE OF CONTENTS NAV --
+nav class"toc-bar"
+    a href"#corpus"01 · Corpus/a
+    a href"#collection"02 · Collection/a
+    a href"#pipeline"03 · Pipeline/a
+    a href"#nlp"04 · NLP/a
+    a href"#stylometry"05 · Stylometry/a
+    a href"#clustering"06 · Clustering/a
+    a href"#timeline"07 · Timeline/a
+    a href"#gis"08 · GIS/a
+    a href"#findings"09 · Findings/a
+    a href"#contribute"10 · Contribute/a
+    a href"#cite"11 · Cite/a
+/nav
 
-<!-- HERO -->
-<div class="hero">
-<div class="wrap">
-    <p class="hero-eyebrow">Digital Humanities · NLP · Computational Analysis</p>
-    <h1 class="hero-title">Medieval Poetesses:<br><strong>Emotional Intensity</strong><br>in Historical Verse</h1>
-    <div class="hero-tags">
-        <span class="tag tag-violet">NLP</span>
-        <span class="tag tag-green">Computational Philology</span>
-        <span class="tag">K-Means</span>
-        <span class="tag">PCA</span>
-        <span class="tag">Historical GIS</span>
-        <span class="tag">Open Corpus</span>
-    </div>
-    <blockquote>
-        <p>« If you were truly in love with me, you would not blame my unveiled face. »</p>
-        <cite>— Wallada bint al-Mustakfi (~1010–1091), Córdoba</cite>
-    </blockquote>
-    <p style="max-width:620px;">
+!-- HERO --
+div class"hero"
+div class"wrap"
+    p class"hero-eyebrow"Digital Humanities · NLP · Computational Analysis/p
+    h1 class"hero-title"Medieval Poetesses:brstrongEmotional Intensity/strongbrin Historical Verse/h1
+    div class"hero-tags"
+        span class"tag tag-violet"NLP/span
+        span class"tag tag-green"Computational Philology/span
+        span class"tag"K-Means/span
+        span class"tag"PCA/span
+        span class"tag"Historical GIS/span
+        span class"tag"Open Corpus/span
+    /div
+    blockquote
+        p« If you were truly in love with me, you would not blame my unveiled face. »/p
+        cite— Wallada bint al-Mustakfi (1010–1091), Córdoba/cite
+    /blockquote
+    p style"max-width:620px;"
         This project applies natural language processing, unsupervised machine learning, and interactive visualization to model emotional intensity across four medieval women writers — separated by language, century, and geography, yet bound by structural resonances the algorithm reveals.
-    </p>
-</div>
-</div>
+    /p
+/div
+/div
 
-<!-- 01 · CORPUS -->
-<section id="corpus">
-<div class="wrap">
-    <p class="section-label">01 · The Corpus</p>
-    <h2>Four Voices, Four Worlds</h2>
-    <p>The initial corpus centers on four medieval women whose textual traces are richly documented — chosen to maximize linguistic, geographic, and generic diversity.</p>
+!-- 01 · CORPUS --
+section id"corpus"
+div class"wrap"
+    p class"section-label"01 · The Corpus/p
+    h2Four Voices, Four Worlds/h2
+    pThe initial corpus centers on four medieval women whose textual traces are richly documented — chosen to maximize linguistic, geographic, and generic diversity./p
 
-    <div class="grid4">
-        <div class="card">
-            <img class="card-img" src="https://cdn1.booknode.com/book_cover/1480/alexiade-1479638-264-432.webp" alt="Anna Komnene">
-            <div class="card-body">
-                <div class="card-origin">Byzantine Empire · c.1083–1153</div>
-                <div class="card-name">Anna Komnene</div>
-                <div class="card-focus">Political History</div>
-                <p class="card-desc">Author of the <em>Alexiad</em> — the first memoir written by a woman in the Western tradition.</p>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img" src="https://www.perthobservatory.com.au/wp-content/uploads/hildegard-von-bingen.jpg" alt="Hildegard von Bingen">
-            <div class="card-body">
-                <div class="card-origin">Holy Roman Empire · 1098–1179</div>
-                <div class="card-name">Hildegard von Bingen</div>
-                <div class="card-focus">Cosmology & Spirituality</div>
-                <p class="card-desc">Mystic, composer, scientist — her <em>O Clarissima Mater</em> maps the divine through language.</p>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img" src="https://www.actes-sud.fr/sites/default/files/couvertures/9782742777204.jpg" alt="Marie de France">
-            <div class="card-body">
-                <div class="card-origin">Anglo-Norman England · c.1160–1215</div>
-                <div class="card-name">Marie de France</div>
-                <div class="card-focus">Courtly Love & Lais</div>
-                <p class="card-desc">Her <em>Lais</em> use natural metaphor to encode desire, longing, and social transgression.</p>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img" src="https://images.gr-assets.com/authors/1519487580p5/17087091.jpg" alt="Wallada bint al-Mustakfi">
-            <div class="card-body">
-                <div class="card-origin">Al-Andalus · c.1010–1091</div>
-                <div class="card-name">Wallada bint al-Mustakfi</div>
-                <div class="card-focus">Independence & Passion</div>
-                <p class="card-desc">Poet and intellectual who hosted Córdoba's literary salon — and embroidered her verses on her robes.</p>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
+    div class"grid4"
+        div class"card"
+            img class"card-img" src"https://cdn1.booknode.com/book_cover/1480/alexiade-1479638-264-432.webp" alt"Anna Komnene"
+            div class"card-body"
+                div class"card-origin"Byzantine Empire · c.1083–1153/div
+                div class"card-name"Anna Komnene/div
+                div class"card-focus"Political History/div
+                p class"card-desc"Author of the emAlexiad/em — the first memoir written by a woman in the Western tradition./p
+            /div
+        /div
+        div class"card"
+            img class"card-img" src"https://www.perthobservatory.com.au/wp-content/uploads/hildegard-von-bingen.jpg" alt"Hildegard von Bingen"
+            div class"card-body"
+                div class"card-origin"Holy Roman Empire · 1098–1179/div
+                div class"card-name"Hildegard von Bingen/div
+                div class"card-focus"Cosmology & Spirituality/div
+                p class"card-desc"Mystic, composer, scientist — her emO Clarissima Mater/em maps the divine through language./p
+            /div
+        /div
+        div class"card"
+            img class"card-img" src"https://www.actes-sud.fr/sites/default/files/couvertures/9782742777204.jpg" alt"Marie de France"
+            div class"card-body"
+                div class"card-origin"Anglo-Norman England · c.1160–1215/div
+                div class"card-name"Marie de France/div
+                div class"card-focus"Courtly Love & Lais/div
+                p class"card-desc"Her emLais/em use natural metaphor to encode desire, longing, and social transgression./p
+            /div
+        /div
+        div class"card"
+            img class"card-img" src"https://images.gr-assets.com/authors/1519487580p5/17087091.jpg" alt"Wallada bint al-Mustakfi"
+            div class"card-body"
+                div class"card-origin"Al-Andalus · c.1010–1091/div
+                div class"card-name"Wallada bint al-Mustakfi/div
+                div class"card-focus"Independence & Passion/div
+                p class"card-desc"Poet and intellectual who hosted Córdoba's literary salon — and embroidered her verses on her robes./p
+            /div
+        /div
+    /div
+/div
+/section
 
-<!-- 02 · COLLECTION -->
-<section id="collection">
-<div class="wrap">
-    <p class="section-label">02 · Data Collection</p>
-    <h2>Automatic & Participatory</h2>
-    <p>The corpus is built in two layers: automated scraping from open encyclopedic sources, and a participatory web app that invites researchers to contribute texts by medieval women from underrepresented regions.</p>
+!-- 02 · COLLECTION --
+section id"collection"
+div class"wrap"
+    p class"section-label"02 · Data Collection/p
+    h2Automatic & Participatory/h2
+    pThe corpus is built in two layers: automated scraping from open encyclopedic sources, and a participatory web app that invites researchers to contribute texts by medieval women from underrepresented regions./p
 
-    <h3>Automated Scraping</h3>
-    <p>A Python scraper queries the <strong>Wikipedia MediaWiki API</strong> targeting the categories <code>Medieval_women_poets</code> and <code>Women_writers_(medieval)</code>. For each page, it collects author name, biographical extract, date, source name, and source URL.</p>
-    <pre><code>BASE_URL = "https://en.wikipedia.org/w/api.php"
-CATEGORIES = ["Medieval_women_poets", "Women_writers_(medieval)"]
+    h3Automated Scraping/h3
+    pA Python scraper queries the strongWikipedia MediaWiki API/strong targeting the categories codeMedieval_women_poets/code and codeWomen_writers_(medieval)/code. For each page, it collects author name, biographical extract, date, source name, and source URL./p
+    precodeBASE_URL  "https://en.wikipedia.org/w/api.php"
+CATEGORIES  ["Medieval_women_poets", "Women_writers_(medieval)"]
 
-params = {
+params  {
     "action": "query",
     "list": "categorymembers",
     "cmtitle": f"Category:{category}",
     "format": "json"
-}</code></pre>
-    <p>The scraper is containerized with Docker and deployed on Quay.io, triggered automatically on each GitHub push.</p>
+}/code/pre
+    pThe scraper is containerized with Docker and deployed on Quay.io, triggered automatically on each GitHub push./p
 
-    <h3>Participatory Validation App</h3>
-    <p>Scraped entries are reviewed and enriched through a FastAPI web app deployed on Render. Validated entries are written directly to Google Sheets, feeding the live corpus. The app is open to global contributors.</p>
-    <a href="https://medieval-poetesses.onrender.com/" target="_blank" class="cta-link">↗ Open the Collection App</a>
-</div>
-</section>
+    h3Participatory Validation App/h3
+    pScraped entries are reviewed and enriched through a FastAPI web app deployed on Render. Validated entries are written directly to Google Sheets, feeding the live corpus. The app is open to global contributors./p
+    a href"https://medieval-poetesses.onrender.com/" target"_blank" class"cta-link" Open the Collection App/a
+/div
+/section
 
-<!-- 03 · PIPELINE -->
-<section id="pipeline">
-<div class="wrap">
-    <p class="section-label">03 · Analysis Pipeline</p>
-    <h2>From Raw Text to Emotional Map</h2>
-    <p>Medieval texts in four languages are transformed into a comparable emotional signal through a four-stage pipeline.</p>
-    <div class="pipeline">
-        <div class="pipe-step">
-            <div class="pipe-num">CH01</div>
-            <div class="pipe-title">Linguistic Feature Extraction</div>
-            <div class="pipe-tools">NLP · Translation · Tokenization</div>
-        </div>
-        <div class="pipe-step">
-            <div class="pipe-num">CH02</div>
-            <div class="pipe-title">Comparative Stylometry</div>
-            <div class="pipe-tools">TF-IDF · PCA</div>
-        </div>
-        <div class="pipe-step">
-            <div class="pipe-num">CH03</div>
-            <div class="pipe-title">Unsupervised Clustering</div>
-            <div class="pipe-tools">K-Means · Scikit-learn</div>
-        </div>
-        <div class="pipe-step">
-            <div class="pipe-num">CH04</div>
-            <div class="pipe-title">Dynamic Visualization</div>
-            <div class="pipe-tools">Plotly · GIS · Timeline</div>
-        </div>
-    </div>
-</div>
-</section>
+!-- 03 · PIPELINE --
+section id"pipeline"
+div class"wrap"
+    p class"section-label"03 · Analysis Pipeline/p
+    h2From Raw Text to Emotional Map/h2
+    pMedieval texts in four languages are transformed into a comparable emotional signal through a four-stage pipeline./p
+    div class"pipeline"
+        div class"pipe-step"
+            div class"pipe-num"CH01/div
+            div class"pipe-title"Linguistic Feature Extraction/div
+            div class"pipe-tools"NLP · Translation · Tokenization/div
+        /div
+        div class"pipe-step"
+            div class"pipe-num"CH02/div
+            div class"pipe-title"Comparative Stylometry/div
+            div class"pipe-tools"TF-IDF · PCA/div
+        /div
+        div class"pipe-step"
+            div class"pipe-num"CH03/div
+            div class"pipe-title"Unsupervised Clustering/div
+            div class"pipe-tools"K-Means · Scikit-learn/div
+        /div
+        div class"pipe-step"
+            div class"pipe-num"CH04/div
+            div class"pipe-title"Dynamic Visualization/div
+            div class"pipe-tools"Plotly · GIS · Timeline/div
+        /div
+    /div
+/div
+/section
 
-<!-- 04 · NLP -->
-<section id="nlp">
-<div class="wrap">
-    <p class="section-label">04 · NLP — Linguistic Feature Extraction</p>
-    <h2>Reading Emotion Across Languages</h2>
-    <p>Medieval texts written in Old French, Latin, Byzantine Greek, and Andalusian Arabic are translated into English using a neural machine translation model before emotion classification.</p>
+!-- 04 · NLP --
+section id"nlp"
+div class"wrap"
+    p class"section-label"04 · NLP — Linguistic Feature Extraction/p
+    h2Reading Emotion Across Languages/h2
+    pMedieval texts written in Old French, Latin, Byzantine Greek, and Andalusian Arabic are translated into English using a neural machine translation model before emotion classification./p
 
-    <div class="tools">
-        <span class="badge badge-violet">Helsinki-NLP/opus-mt-fr-en</span>
-        <span class="badge badge-green">DistilRoBERTa</span>
-        <span class="badge">pandas DataFrame</span>
-    </div>
+    div class"tools"
+        span class"badge badge-violet"Helsinki-NLP/opus-mt-fr-en/span
+        span class"badge badge-green"DistilRoBERTa/span
+        span class"badge"pandas DataFrame/span
+    /div
 
-    <ul>
-        <li><strong>Neural Translation (NMT):</strong> Helsinki-NLP bridges medieval syntax and modern English so the emotion model receives data it was trained on.</li>
-        <li><strong>Emotion Classification:</strong> DistilRoBERTa calculates probability scores for 7 emotions (Joy, Sadness, Anger, Fear, Surprise, Disgust, Neutral) per line.</li>
-        <li><strong>Categorical Encoding:</strong> Emotion labels are converted to numerical codes for use as visual dimensions (color, size, position).</li>
-    </ul>
+    ul
+        listrongNeural Translation (NMT):/strong Helsinki-NLP bridges medieval syntax and modern English so the emotion model receives data it was trained on./li
+        listrongEmotion Classification:/strong DistilRoBERTa calculates probability scores for 7 emotions (Joy, Sadness, Anger, Fear, Surprise, Disgust, Neutral) per line./li
+        listrongCategorical Encoding:/strong Emotion labels are converted to numerical codes for use as visual dimensions (color, size, position)./li
+    /ul
 
-    <div class="viz-frame">
-        <div class="viz-label">Sample — Emotion classification output</div>
-        <iframe src="assets/images/emotion_sample.html" height="400px"></iframe>
-    </div>
-    <div class="viz-frame">
-        <div class="viz-label">Emotion distribution across the corpus</div>
-        <iframe src="assets/images/emotion_chart.html" height="550px"></iframe>
-    </div>
-</div>
-</section>
+    div class"viz-frame"
+        div class"viz-label"Sample — Emotion classification output/div
+        iframe src"assets/images/emotion_sample.html" height"400px"/iframe
+    /div
+    div class"viz-frame"
+        div class"viz-label"Emotion distribution across the corpus/div
+        iframe src"assets/images/emotion_chart.html" height"550px"/iframe
+    /div
+/div
+/section
 
-<!-- 05 · STYLOMETRY -->
-<section id="stylometry">
-<div class="wrap">
-    <p class="section-label">05 · Stylometry — Authorial Signatures</p>
-    <h2>What Makes Each Voice Unique</h2>
-    <p>TF-IDF vectorization weights words by how characteristic they are of a single author. PCA then compresses hundreds of linguistic dimensions into two axes — revealing the "gravitational pull" of each writer's style.</p>
+!-- 05 · STYLOMETRY --
+section id"stylometry"
+div class"wrap"
+    p class"section-label"05 · Stylometry — Authorial Signatures/p
+    h2What Makes Each Voice Unique/h2
+    pTF-IDF vectorization weights words by how characteristic they are of a single author. PCA then compresses hundreds of linguistic dimensions into two axes — revealing the "gravitational pull" of each writer's style./p
 
-    <div class="tools">
-        <span class="badge badge-violet">TfidfVectorizer</span>
-        <span class="badge badge-green">PCA</span>
-        <span class="badge">Connected Scatterplot</span>
-    </div>
+    div class"tools"
+        span class"badge badge-violet"TfidfVectorizer/span
+        span class"badge badge-green"PCA/span
+        span class"badge"Connected Scatterplot/span
+    /div
 
-    <p>The connected scatterplot treats text as a sequence — linking verses in order to trace the tonal journey of a work, not just its average position in space.</p>
+    pThe connected scatterplot treats text as a sequence — linking verses in order to trace the tonal journey of a work, not just its average position in space./p
 
-    <div class="viz-frame">
-        <div class="viz-label">Comparative stylometry — PCA projection</div>
-        <iframe src="assets/images/medieval_stylometry.html" height="750px"></iframe>
-    </div>
+    div class"viz-frame"
+        div class"viz-label"Comparative stylometry — PCA projection/div
+        iframe src"assets/images/medieval_stylometry.html" height"750px"/iframe
+    /div
 
-    <ul>
-        <li>Sudden spikes represent <strong>thematic ruptures</strong> — moments of emotional or political intensity.</li>
-        <li>Shared clusters between authors reveal <strong>cross-cultural structural resonance</strong>, not influence.</li>
-    </ul>
-</div>
-</section>
+    ul
+        liSudden spikes represent strongthematic ruptures/strong — moments of emotional or political intensity./li
+        liShared clusters between authors reveal strongcross-cultural structural resonance/strong, not influence./li
+    /ul
+/div
+/section
 
-<!-- 06 · CLUSTERING -->
-<section id="clustering">
-<div class="wrap">
-    <p class="section-label">06 · Clustering — Thematic Connections</p>
-    <h2>Patterns the Algorithm Finds Without Instruction</h2>
-    <p>K-Means groups verses by semantic proximity without being told which author wrote them or what the theme is. Four clusters emerged as the optimal balance between granularity and interpretability.</p>
+!-- 06 · CLUSTERING --
+section id"clustering"
+div class"wrap"
+    p class"section-label"06 · Clustering — Thematic Connections/p
+    h2Patterns the Algorithm Finds Without Instruction/h2
+    pK-Means groups verses by semantic proximity without being told which author wrote them or what the theme is. Four clusters emerged as the optimal balance between granularity and interpretability./p
 
-    <div class="tools">
-        <span class="badge badge-green">K-Means</span>
-        <span class="badge">Scikit-learn</span>
-        <span class="badge badge-violet">Convex Hull</span>
-    </div>
+    div class"tools"
+        span class"badge badge-green"K-Means/span
+        span class"badge"Scikit-learn/span
+        span class"badge badge-violet"Convex Hull/span
+    /div
 
-    <div class="cluster-grid">
-        <div class="cluster">
-            <div class="cluster-id">Cluster 01</div>
-            <div class="cluster-title">Nature / Love</div>
-            <p class="cluster-desc">Natural imagery and romantic longing — bridges Marie de France and Wallada across centuries.</p>
-        </div>
-        <div class="cluster">
-            <div class="cluster-id">Cluster 02</div>
-            <div class="cluster-title">Power / History</div>
-            <p class="cluster-desc">Formal rhetoric and historical lineage — dominated by Anna Komnene's Alexiad.</p>
-        </div>
-        <div class="cluster">
-            <div class="cluster-id">Cluster 03</div>
-            <div class="cluster-title">Spirituality</div>
-            <p class="cluster-desc">Divine revelation and cosmic order — isolates Hildegard's theological vocabulary.</p>
-        </div>
-        <div class="cluster">
-            <div class="cluster-id">Cluster 04</div>
-            <div class="cluster-title">Loss / Memory</div>
-            <p class="cluster-desc">Melancholy of displacement — a cross-temporal cluster binding voices from different continents.</p>
-        </div>
-    </div>
+    div class"cluster-grid"
+        div class"cluster"
+            div class"cluster-id"Cluster 01/div
+            div class"cluster-title"Nature / Love/div
+            p class"cluster-desc"Natural imagery and romantic longing — bridges Marie de France and Wallada across centuries./p
+        /div
+        div class"cluster"
+            div class"cluster-id"Cluster 02/div
+            div class"cluster-title"Power / History/div
+            p class"cluster-desc"Formal rhetoric and historical lineage — dominated by Anna Komnene's Alexiad./p
+        /div
+        div class"cluster"
+            div class"cluster-id"Cluster 03/div
+            div class"cluster-title"Spirituality/div
+            p class"cluster-desc"Divine revelation and cosmic order — isolates Hildegard's theological vocabulary./p
+        /div
+        div class"cluster"
+            div class"cluster-id"Cluster 04/div
+            div class"cluster-title"Loss / Memory/div
+            p class"cluster-desc"Melancholy of displacement — a cross-temporal cluster binding voices from different continents./p
+        /div
+    /div
 
-    <div class="viz-frame">
-        <div class="viz-label">K-Means cluster map — PCA projection</div>
-        <iframe src="assets/images/cluster_map.html" height="500px"></iframe>
-    </div>
-    <div class="viz-frame">
-        <div class="viz-label">Comparative trajectory — all four poetesses</div>
-        <iframe src="assets/images/comparative_trajectory.html" height="500px"></iframe>
-    </div>
-    <div class="viz-frame">
-        <div class="viz-label">Emotional intensity clusters — Convex Hull</div>
-        <iframe src="assets/images/intensity_hulls.html" height="500px"></iframe>
-    </div>
+    div class"viz-frame"
+        div class"viz-label"K-Means cluster map — PCA projection/div
+        iframe src"assets/images/cluster_map.html" height"500px"/iframe
+    /div
+    div class"viz-frame"
+        div class"viz-label"Comparative trajectory — all four poetesses/div
+        iframe src"assets/images/comparative_trajectory.html" height"500px"/iframe
+    /div
+    div class"viz-frame"
+        div class"viz-label"Emotional intensity clusters — Convex Hull/div
+        iframe src"assets/images/intensity_hulls.html" height"500px"/iframe
+    /div
 
-    <table>
-        <thead>
-            <tr>
-                <th>Analysis</th>
-                <th>Focus</th>
-                <th>Objective</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>STYLOMETRY (PCA)</td>
-                <td>Linguistic habits, syntax, rhythmic patterns</td>
-                <td>Isolate the inimitable signature of each author</td>
-            </tr>
-            <tr>
-                <td>CLUSTERING (K-MEANS)</td>
-                <td>Semantic meaning, shared vocabulary, topics</td>
-                <td>Connect voices across time through shared archetypes</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-</section>
+    table
+        thead
+            tr
+                thAnalysis/th
+                thFocus/th
+                thObjective/th
+            /tr
+        /thead
+        tbody
+            tr
+                tdSTYLOMETRY (PCA)/td
+                tdLinguistic habits, syntax, rhythmic patterns/td
+                tdIsolate the inimitable signature of each author/td
+            /tr
+            tr
+                tdCLUSTERING (K-MEANS)/td
+                tdSemantic meaning, shared vocabulary, topics/td
+                tdConnect voices across time through shared archetypes/td
+            /tr
+        /tbody
+    /table
+/div
+/section
 
-<!-- 07 · TIMELINE -->
-<section id="timeline">
-<div class="wrap">
-    <p class="section-label">07 · Timeline — Emotional Trajectories</p>
-    <h2>Emotion as a Time Series</h2>
-    <p>Narrative position functions as a proxy for emotional tempo. Each verse is treated as a moment in a diachronic sequence, allowing comparison of rhythmic structures across genres — historiography, theology, poetry — and across centuries.</p>
-    <p>The trajectory reveals not just <em>what</em> emotion dominates, but <em>when</em> a writer accelerates, plateaus, or ruptures into feeling.</p>
+!-- 07 · TIMELINE --
+section id"timeline"
+div class"wrap"
+    p class"section-label"07 · Timeline — Emotional Trajectories/p
+    h2Emotion as a Time Series/h2
+    pNarrative position functions as a proxy for emotional tempo. Each verse is treated as a moment in a diachronic sequence, allowing comparison of rhythmic structures across genres — historiography, theology, poetry — and across centuries./p
+    pThe trajectory reveals not just emwhat/em emotion dominates, but emwhen/em a writer accelerates, plateaus, or ruptures into feeling./p
 
-    <div class="viz-frame">
-        <div class="viz-label">Emotional trajectory — Wallada bint al-Mustakfi</div>
-        <iframe src="assets/images/trajectory_wallada.html" height="500px"></iframe>
-    </div>
-    <div class="viz-frame">
-        <div class="viz-label">Emotional trajectory — Marie de France</div>
-        <iframe src="assets/images/trajectory_marie_de_france.html" height="500px"></iframe>
-    </div>
-    <div class="viz-frame">
-        <div class="viz-label">Emotional trajectory — Hildegard von Bingen</div>
-        <iframe src="assets/images/trajectory_hildegard_von_bingen.html" height="500px"></iframe>
-    </div>
-    <div class="viz-frame">
-        <div class="viz-label">Emotional trajectory — Anna Komnene</div>
-        <iframe src="assets/images/trajectory_anna_komnene.html" height="500px"></iframe>
-    </div>
-    <div class="viz-frame">
-        <div class="viz-label">Emotional intensity distribution by poetess — violin plot</div>
-        <iframe src="assets/images/emotional_distribution.html" height="500px"></iframe>
-    </div>
-    <div class="viz-frame">
-        <div class="viz-label">Emotional intensity distribution by emotion type</div>
-        <iframe src="assets/images/emotion_intensity_distribution.html" height="500px"></iframe>
-    </div>
-</div>
-</section>
+    div class"viz-frame"
+        div class"viz-label"Emotional trajectory — Wallada bint al-Mustakfi/div
+        iframe src"assets/images/trajectory_wallada.html" height"500px"/iframe
+    /div
+    div class"viz-frame"
+        div class"viz-label"Emotional trajectory — Marie de France/div
+        iframe src"assets/images/trajectory_marie_de_france.html" height"500px"/iframe
+    /div
+    div class"viz-frame"
+        div class"viz-label"Emotional trajectory — Hildegard von Bingen/div
+        iframe src"assets/images/trajectory_hildegard_von_bingen.html" height"500px"/iframe
+    /div
+    div class"viz-frame"
+        div class"viz-label"Emotional trajectory — Anna Komnene/div
+        iframe src"assets/images/trajectory_anna_komnene.html" height"500px"/iframe
+    /div
+    div class"viz-frame"
+        div class"viz-label"Emotional intensity distribution by poetess — violin plot/div
+        iframe src"assets/images/emotional_distribution.html" height"500px"/iframe
+    /div
+    div class"viz-frame"
+        div class"viz-label"Emotional intensity distribution by emotion type/div
+        iframe src"assets/images/emotion_intensity_distribution.html" height"500px"/iframe
+    /div
+/div
+/section
 
-<!-- 08 · GIS -->
-<section id="gis">
-<div class="wrap">
-    <p class="section-label">08 · Historical GIS — Geography of Emotion</p>
-    <h2>Where Feelings Were Written</h2>
-    <p>Semantic clusters are projected onto the geographic nodes where these texts were produced. The map asks: does proximity in emotional space correlate with, or contradict, proximity in physical space?</p>
-    <p>Córdoba, Bingen, Caen, and Constantinople sit thousands of kilometers apart — yet <strong>Cluster 04 (Loss/Memory)</strong> draws Wallada and Anna Komnene into the same mathematical neighborhood.</p>
+!-- 08 · GIS --
+section id"gis"
+div class"wrap"
+    p class"section-label"08 · Historical GIS — Geography of Emotion/p
+    h2Where Feelings Were Written/h2
+    pSemantic clusters are projected onto the geographic nodes where these texts were produced. The map asks: does proximity in emotional space correlate with, or contradict, proximity in physical space?/p
+    pCórdoba, Bingen, Caen, and Constantinople sit thousands of kilometers apart — yet strongCluster 04 (Loss/Memory)/strong draws Wallada and Anna Komnene into the same mathematical neighborhood./p
 
-    <div style="background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 3rem; text-align: center; margin: 2rem 0; color: var(--muted);">
-        <div style="font-size: 2rem; margin-bottom: 1rem;">🗺</div>
-        <div style="font-size: .85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: .5rem;">Interactive GIS map</div>
-        <div style="font-size: .78rem;">Plotly geographic visualization — coming with the next corpus update</div>
-    </div>
+    div style"background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 3rem; text-align: center; margin: 2rem 0; color: var(--muted);"
+        div style"font-size: 2rem; margin-bottom: 1rem;"[map]/div
+        div style"font-size: .85rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: .5rem;"Interactive GIS map/div
+        div style"font-size: .78rem;"Plotly geographic visualization — coming with the next corpus update/div
+    /div
 
-    <p>The cartography maps four geographic nodes to their dominant emotional cluster:</p>
-    <table>
-        <thead>
-            <tr><th>Node</th><th>Author</th><th>Dominant Cluster</th><th>Key Emotion</th></tr>
-        </thead>
-        <tbody>
-            <tr><td>Constantinople</td><td>Anna Komnene</td><td>Power / History</td><td>Anger · Sadness</td></tr>
-            <tr><td>Bingen (Rhineland)</td><td>Hildegard von Bingen</td><td>Spirituality</td><td>Joy · Surprise</td></tr>
-            <tr><td>Caen (Normandy)</td><td>Marie de France</td><td>Nature / Love</td><td>Joy · Sadness</td></tr>
-            <tr><td>Córdoba</td><td>Wallada bint al-Mustakfi</td><td>Loss / Memory</td><td>Anger · Joy</td></tr>
-        </tbody>
-    </table>
-</div>
-</section>
+    pThe cartography maps four geographic nodes to their dominant emotional cluster:/p
+    table
+        thead
+            trthNode/ththAuthor/ththDominant Cluster/ththKey Emotion/th/tr
+        /thead
+        tbody
+            trtdConstantinople/tdtdAnna Komnene/tdtdPower / History/tdtdAnger · Sadness/td/tr
+            trtdBingen (Rhineland)/tdtdHildegard von Bingen/tdtdSpirituality/tdtdJoy · Surprise/td/tr
+            trtdCaen (Normandy)/tdtdMarie de France/tdtdNature / Love/tdtdJoy · Sadness/td/tr
+            trtdCórdoba/tdtdWallada bint al-Mustakfi/tdtdLoss / Memory/tdtdAnger · Joy/td/tr
+        /tbody
+    /table
+/div
+/section
 
-<!-- 09 · FINDINGS -->
-<section id="findings">
-<div class="wrap">
-    <p class="section-label">09 · Key Findings</p>
-    <h2>What the Algorithm Reveals</h2>
-    <p>Rather than confirming identity-based assumptions, the analysis surfaces structural patterns that emerge from the text itself.</p>
+!-- 09 · FINDINGS --
+section id"findings"
+div class"wrap"
+    p class"section-label"09 · Key Findings/p
+    h2What the Algorithm Reveals/h2
+    pRather than confirming identity-based assumptions, the analysis surfaces structural patterns that emerge from the text itself./p
 
-    <div class="findings-grid">
-        <div class="finding">
-            <div class="finding-icon">⚡</div>
-            <div class="finding-title">Anger is universal</div>
-            <p class="finding-text">Anger appears across all four authors with consistently high confidence scores — the most cross-cultural emotion in the corpus.</p>
-        </div>
-        <div class="finding">
-            <div class="finding-icon">🔗</div>
-            <div class="finding-title">Love bridges centuries</div>
-            <p class="finding-text">Cluster 01 (Nature/Love) groups Marie de France and Wallada despite a 150-year gap and different languages.</p>
-        </div>
-        <div class="finding">
-            <div class="finding-icon">🧬</div>
-            <div class="finding-title">Genre shapes signal</div>
-            <p class="finding-text">Hildegard's theological prose produces the most stable emotional trajectory — genre, not personality, drives rhythm.</p>
-        </div>
-        <div class="finding">
-            <div class="finding-icon">📍</div>
-            <div class="finding-title">Geography ≠ affect</div>
-            <p class="finding-text">Geographic distance does not predict emotional distance. The most geographically separated authors share the same cluster.</p>
-        </div>
-    </div>
+    div class"findings-grid"
+        div class"finding"
+            div class"finding-icon"/div
+            div class"finding-title"Anger is universal/div
+            p class"finding-text"Anger appears across all four authors with consistently high confidence scores — the most cross-cultural emotion in the corpus./p
+        /div
+        div class"finding"
+            div class"finding-icon"/div
+            div class"finding-title"Love bridges centuries/div
+            p class"finding-text"Cluster 01 (Nature/Love) groups Marie de France and Wallada despite a 150-year gap and different languages./p
+        /div
+        div class"finding"
+            div class"finding-icon"/div
+            div class"finding-title"Genre shapes signal/div
+            p class"finding-text"Hildegard's theological prose produces the most stable emotional trajectory — genre, not personality, drives rhythm./p
+        /div
+        div class"finding"
+            div class"finding-icon"/div
+            div class"finding-title"Geography  affect/div
+            p class"finding-text"Geographic distance does not predict emotional distance. The most geographically separated authors share the same cluster./p
+        /div
+    /div
 
-    <div class="viz-frame">
-        <div class="viz-label">Cluster poem generator — emotional reconstruction</div>
-        <iframe src="assets/images/poetic_remixes.html" height="1200px"></iframe>
-    </div>
-</div>
-</section>
+    div class"viz-frame"
+        div class"viz-label"Cluster poem generator — emotional reconstruction/div
+        iframe src"assets/images/poetic_remixes.html" height"1200px"/iframe
+    /div
+/div
+/section
 
-<!-- 10 · CONTRIBUTE -->
-<section id="contribute">
-<div class="wrap">
-    <p class="section-label">10 · Global Corpus & Contribution</p>
-    <h2>Voices Still Waiting</h2>
-    <p>The current corpus reflects what is digitally accessible in European archives. The project actively seeks texts by medieval women from Africa, Asia, and the pre-Columbian Americas.</p>
+!-- 10 · CONTRIBUTE --
+section id"contribute"
+div class"wrap"
+    p class"section-label"10 · Global Corpus & Contribution/p
+    h2Voices Still Waiting/h2
+    pThe current corpus reflects what is digitally accessible in European archives. The project actively seeks texts by medieval women from Africa, Asia, and the pre-Columbian Americas./p
 
-    <div class="corpus-card">
-        <p style="font-style: italic; color: var(--muted); font-size: .9rem;">"Mapping the heartbeats of poetesses whose verses transcend the current digital sample."</p>
-        <div class="corpus-grid">
-            <div>
-                <div class="corpus-region">Asia & Africa</div>
-                <ul class="corpus-list">
-                    <li><span>Li Qingzhao</span> — China, Song Dynasty</li>
-                    <li><span>Kristos Samra</span> — Ethiopia, 14th c.</li>
-                    <li><span>Akka Mahadevi</span> — India, 12th c.</li>
-                </ul>
-            </div>
-            <div>
-                <div class="corpus-region">LatAm & Eurasia</div>
-                <ul class="corpus-list">
-                    <li><span>Sor Juana*</span> — Latin America</li>
-                    <li><span>Princess Olga</span> — Russia</li>
-                    <li><span>Oral Traditions</span> — Global</li>
-                </ul>
-            </div>
-        </div>
-        <p style="font-size: .73rem; color: var(--muted); margin-top: 1rem; border-top: 1px solid var(--border); padding-top: .8rem;">*Includes voices from the edge of the medieval/early modern transition.</p>
-        <a href="https://medieval-poetesses.onrender.com/" target="_blank" class="cta-link">↗ Add an entry to the corpus</a>
-    </div>
-</div>
-</section>
+    div class"corpus-card"
+        p style"font-style: italic; color: var(--muted); font-size: .9rem;""Mapping the heartbeats of poetesses whose verses transcend the current digital sample."/p
+        div class"corpus-grid"
+            div
+                div class"corpus-region"Asia & Africa/div
+                ul class"corpus-list"
+                    lispanLi Qingzhao/span — China, Song Dynasty/li
+                    lispanKristos Samra/span — Ethiopia, 14th c./li
+                    lispanAkka Mahadevi/span — India, 12th c./li
+                /ul
+            /div
+            div
+                div class"corpus-region"LatAm & Eurasia/div
+                ul class"corpus-list"
+                    lispanSor Juana*/span — Latin America/li
+                    lispanPrincess Olga/span — Russia/li
+                    lispanOral Traditions/span — Global/li
+                /ul
+            /div
+        /div
+        p style"font-size: .73rem; color: var(--muted); margin-top: 1rem; border-top: 1px solid var(--border); padding-top: .8rem;"*Includes voices from the edge of the medieval/early modern transition./p
+        a href"https://medieval-poetesses.onrender.com/" target"_blank" class"cta-link" Add an entry to the corpus/a
+    /div
+/div
+/section
 
-<!-- 11 · CITE -->
-<section id="cite">
-<div class="wrap">
-    <p class="section-label">11 · Citation & Methodology</p>
-    <h2>How to Cite</h2>
-    <div class="cite-block">
-        YANGUERE, N-A. (2026). <em>Mapping Emotional Intensity of Medieval Women's Writing: A Computational Approach to Emotional Trajectories, Chronology, and Geographic Echoes</em>. doi: https://
-    </div>
-    <p><strong>Keywords:</strong> digital humanities · computational philology · emotion analysis · historical GIS · medieval women's writing · NLP · time series · unsupervised learning · K-Means · PCA · attentive reading</p>
-    <p>Corpus shared under <strong>Creative Commons CC-BY 4.0</strong>. Source code on <a href="https://github.com/adeline-hub/medieval_poetess" style="color: var(--green);">GitHub ↗</a></p>
-</div>
-</section>
+!-- 11 · CITE --
+section id"cite"
+div class"wrap"
+    p class"section-label"11 · Citation & Methodology/p
+    h2How to Cite/h2
+    div class"cite-block"
+        YANGUERE, N-A. (2026). emMapping Emotional Intensity of Medieval Women's Writing: A Computational Approach to Emotional Trajectories, Chronology, and Geographic Echoes/em. doi: https://
+    /div
+    pstrongKeywords:/strong digital humanities · computational philology · emotion analysis · historical GIS · medieval women's writing · NLP · time series · unsupervised learning · K-Means · PCA · attentive reading/p
+    pCorpus shared under strongCreative Commons CC-BY 4.0/strong. Source code on a href"https://github.com/adeline-hub/medieval_poetess" style"color: var(--green);"GitHub /a/p
+/div
+/section
 
-<script>
+script
     // Highlight active TOC link on scroll
-    const sections = document.querySelectorAll('section[id], .hero');
-    const tocLinks = document.querySelectorAll('.toc-bar a');
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
+    const sections  document.querySelectorAll('section[id], .hero');
+    const tocLinks  document.querySelectorAll('.toc-bar a');
+    const observer  new IntersectionObserver(entries  {
+        entries.forEach(entry  {
             if (entry.isIntersecting) {
-                tocLinks.forEach(l => l.classList.remove('active'));
-                const active = document.querySelector(`.toc-bar a[href="#${entry.target.id}"]`);
+                tocLinks.forEach(l  l.classList.remove('active'));
+                const active  document.querySelector(`.toc-bar a[href"#${entry.target.id}"]`);
                 if (active) active.classList.add('active');
             }
         });
     }, { rootMargin: '-40% 0px -55% 0px' });
-    sections.forEach(s => observer.observe(s));
-</script>
+    sections.forEach(s  observer.observe(s));
+/script
 
-</body>
-</html>
+/body
+/html

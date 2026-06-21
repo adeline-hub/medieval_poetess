@@ -3,7 +3,9 @@ medieval_poetess
 -------------------------------------------------------------------------------
 
 Medieval Poetesses: Emotional Intensity in Historical Verse
+
 A .danki studio project
+
 https://adeline-hub.github.io/medieval_poetess/
 
 -------------------------------------------------------------------------------
@@ -77,7 +79,7 @@ Sources
 - Anna Komnene: Alexiad (Wikisource, BnF Gallica)
 - Hildegard von Bingen: O Clarissima Mater (critical editions)
 - Marie de France: Lais, Chevrefeuille (BnF, Anglo-Norman texts)
-- Wallada bint al-Mustakfi: Arabic poetry fragments
+- Wallada bint al-Mustakfi: Arabic poetry fragments (Wikipedia)
 - NLP models: Helsinki-NLP, DistilRoBERTa (Hugging Face)
 
 -------------------------------------------------------------------------------
@@ -91,7 +93,7 @@ from Africa, Asia, or the pre-Columbian Americas (5th–15th c.), please share:
 - Author (if known), origin, century
 - Source (manuscript, edition, oral tradition)
 
-Contact: [your preferred method]
+Contact: nambona@pm.me
 
 Even one line may shift the cluster.
 
